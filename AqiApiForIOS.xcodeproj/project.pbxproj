@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD6B812917004565001A792A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6B812817004565001A792A /* UIKit.framework */; };
+		FD6B812B17004565001A792A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6B812A17004565001A792A /* Foundation.framework */; };
+		FD6B812D17004565001A792A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6B812C17004565001A792A /* CoreGraphics.framework */; };
+		FD6B813317004565001A792A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD6B813117004565001A792A /* InfoPlist.strings */; };
+		FD6B813517004565001A792A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6B813417004565001A792A /* main.m */; };
+		FD6B813917004565001A792A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6B813817004565001A792A /* AppDelegate.m */; };
+		FD6B813B17004565001A792A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B813A17004565001A792A /* Default.png */; };
+		FD6B813D17004565001A792A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B813C17004565001A792A /* Default@2x.png */; };
+		FD6B813F17004565001A792A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6B813E17004565001A792A /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD6B812517004565001A792A /* AqiApiForIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AqiApiForIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6B812817004565001A792A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD6B812A17004565001A792A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD6B812C17004565001A792A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD6B813017004565001A792A /* AqiApiForIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AqiApiForIOS-Info.plist"; sourceTree = "<group>"; };
+		FD6B813217004565001A792A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD6B813417004565001A792A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD6B813617004565001A792A /* AqiApiForIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AqiApiForIOS-Prefix.pch"; sourceTree = "<group>"; };
+		FD6B813717004565001A792A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD6B813817004565001A792A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD6B813A17004565001A792A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FD6B813C17004565001A792A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FD6B813E17004565001A792A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD6B812217004565001A792A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B812917004565001A792A /* UIKit.framework in Frameworks */,
+				FD6B812B17004565001A792A /* Foundation.framework in Frameworks */,
+				FD6B812D17004565001A792A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD6B811C17004565001A792A = {
+			isa = PBXGroup;
+			children = (
+				FD6B812E17004565001A792A /* AqiApiForIOS */,
+				FD6B812717004565001A792A /* Frameworks */,
+				FD6B812617004565001A792A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD6B812617004565001A792A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B812517004565001A792A /* AqiApiForIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6B812717004565001A792A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B812817004565001A792A /* UIKit.framework */,
+				FD6B812A17004565001A792A /* Foundation.framework */,
+				FD6B812C17004565001A792A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6B812E17004565001A792A /* AqiApiForIOS */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B813717004565001A792A /* AppDelegate.h */,
+				FD6B813817004565001A792A /* AppDelegate.m */,
+				FD6B812F17004565001A792A /* Supporting Files */,
+			);
+			path = AqiApiForIOS;
+			sourceTree = "<group>";
+		};
+		FD6B812F17004565001A792A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B813017004565001A792A /* AqiApiForIOS-Info.plist */,
+				FD6B813117004565001A792A /* InfoPlist.strings */,
+				FD6B813417004565001A792A /* main.m */,
+				FD6B813617004565001A792A /* AqiApiForIOS-Prefix.pch */,
+				FD6B813A17004565001A792A /* Default.png */,
+				FD6B813C17004565001A792A /* Default@2x.png */,
+				FD6B813E17004565001A792A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD6B812417004565001A792A /* AqiApiForIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6B814217004565001A792A /* Build configuration list for PBXNativeTarget "AqiApiForIOS" */;
+			buildPhases = (
+				FD6B812117004565001A792A /* Sources */,
+				FD6B812217004565001A792A /* Frameworks */,
+				FD6B812317004565001A792A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AqiApiForIOS;
+			productName = AqiApiForIOS;
+			productReference = FD6B812517004565001A792A /* AqiApiForIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD6B811D17004565001A792A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BLUETIGER;
+			};
+			buildConfigurationList = FD6B812017004565001A792A /* Build configuration list for PBXProject "AqiApiForIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD6B811C17004565001A792A;
+			productRefGroup = FD6B812617004565001A792A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD6B812417004565001A792A /* AqiApiForIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD6B812317004565001A792A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B813317004565001A792A /* InfoPlist.strings in Resources */,
+				FD6B813B17004565001A792A /* Default.png in Resources */,
+				FD6B813D17004565001A792A /* Default@2x.png in Resources */,
+				FD6B813F17004565001A792A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD6B812117004565001A792A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B813517004565001A792A /* main.m in Sources */,
+				FD6B813917004565001A792A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD6B813117004565001A792A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6B813217004565001A792A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD6B814017004565001A792A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD6B814117004565001A792A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD6B814317004565001A792A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AqiApiForIOS/AqiApiForIOS-Prefix.pch";
+				INFOPLIST_FILE = "AqiApiForIOS/AqiApiForIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD6B814417004565001A792A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AqiApiForIOS/AqiApiForIOS-Prefix.pch";
+				INFOPLIST_FILE = "AqiApiForIOS/AqiApiForIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD6B812017004565001A792A /* Build configuration list for PBXProject "AqiApiForIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6B814017004565001A792A /* Debug */,
+				FD6B814117004565001A792A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6B814217004565001A792A /* Build configuration list for PBXNativeTarget "AqiApiForIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6B814317004565001A792A /* Debug */,
+				FD6B814417004565001A792A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD6B811D17004565001A792A /* Project object */;
+}
