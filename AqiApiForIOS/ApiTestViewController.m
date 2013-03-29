@@ -9,7 +9,7 @@
 #import "ApiTestViewController.h"
 #import "AqiAPI.h"
 
-#define APPKEY @"QfEJyi3oWKSBCnKrqp1v"
+#define APPKEY @"YOUR_APPKEY_IN_PM15.in"
 
 @interface ApiTestViewController ()
 
